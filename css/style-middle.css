@@ -1,0 +1,45 @@
+h1{
+    font-size: 17pt;
+    padding-left: 5pt;
+    text-align: center; 
+}
+
+h1 span{
+    font-size: 20pt;
+}
+
+h2{
+    padding-left: 10px;
+    font-size: 12pt;
+    text-align: left;
+}
+
+ul{
+    text-align: left;
+    margin-left: -30px;
+}
+
+.content{
+    border-radius: 5px;
+}
+
+.a-hotel{
+    font-size: 10pt;
+}
+
+.main-img{
+    display: block;
+    width: 90%;
+    height: auto;
+    border-radius: 5px;
+    float: center;
+    margin: 10px 5%;
+}
+
+.text-info{
+    font-size: 9pt;
+}
+
+.text-info ul{
+    line-height: 15pt;
+}
