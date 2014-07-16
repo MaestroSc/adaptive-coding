@@ -6,12 +6,13 @@
     <link rel='stylesheet' media='(min-width: 371px) and (max-width: 550px)' href='css/style-middle.css' />
     <link rel='stylesheet' media='(max-width: 370px)' href='css/style-small.css' />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
-	<h1>Номера отеля в Ялте &nbsp <i><span style="color: #D91824; font-size: inherit + 5pt;">"Palmira Palace"</span></i></h1>
+	<h1>Номера отеля в Ялте &nbsp; <i><span style="color: #D91824; font-size: inherit + 5pt;">"Palmira Palace"</span></i></h1>
 	<div class="content">
-		<img src="img/luxe-comfort.jpg" class="main-img"></img>
+		<img src="img/photoLuxe.jpg" class="main-img"  alt="">
 		<div class="text-info">
 
 			<p class="hotel-room-price"><a href="#" class='a-hotel'>Цена в высокий сезон<br>
@@ -45,11 +46,17 @@
 			</ul>
 		</div>
 
-		<div class="gallery">
-			<div class="gallery-show-window"></div>
-			<div class="gallery-nav gallery-nav-right"></div>
-			<div class="gallery-nav gallery-nav-left"></div>
-			<div class="gallery-list-main"></div>
+		<div class="gallery" onselectstart="return false">
+			<div class="gallery-change-photo gallery-next-photo">Next</div>
+			<div class="gallery-change-photo gallery-prev-photo">Prev</div>
+			<div class="gallery-show-window">
+				<img class="gallery-show-window-img" src="#" alt="">
+			</div>
+			<div class="gallery-list">
+				<button class="gallery-nav gallery-nav-right"></button>
+				<button class="gallery-nav gallery-nav-left"></button>
+				<div class="gallery-list-main"></div>
+			</div>
 
 		</div>
 	</div>
